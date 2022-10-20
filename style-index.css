@@ -1,0 +1,136 @@
+.main {
+    background: black;
+}
+
+.bg-titulo {
+    display: flex;
+}
+
+.titulo {
+    background: url("./imagenes/bg.jpg");
+    width: 100%;
+    height: 5rem;
+    font-size: 50px;
+    font-weight: bold;
+    font-style: italic;
+    font-family: "Press Start 2P", cursive;
+    color: rgb(16, 184, 16);
+    animation: neonEffect 5s infinite;
+    padding-left: 1.5rem;
+    padding-top: 1rem;
+}
+
+.challange {
+
+    width: 100%;
+    font-size: 3rem;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: right;
+    background: url("./imagenes/bg.jpg");
+    color: rgb(215, 228, 216);
+    padding: 1rem 2rem 1rem 0;
+    font-style: italic;
+    text-shadow: #effd6d 0 0 10px;
+}
+
+@keyframes neonEffect {
+
+    0%,
+    35%,
+    45%,
+    65%,
+    100% {
+        text-shadow:
+            white 0 0 10px,
+            #effd6d 0 0 15px,
+            #effd6d 0 0 25px;
+    }
+
+    40%,
+    60% {
+        text-shadow: none;
+    }
+}
+
+.area-texto {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 3rem;
+
+}
+
+.text-input {
+    width: 30%;
+    height: 20rem;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    background: #080606;
+    color: rgb(13, 252, 13);
+    border: 1px solid #0cdee6;
+}
+
+.text-output {
+    width: 30%;
+    height: 20rem;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    background: #080606;
+    color: rgb(13, 252, 13);
+    border: 1px solid #0cdee6;
+}
+
+.grupo-uno {
+    width: 100%;
+    height: 2rem;
+    color: beige;
+    padding-left: 8rem;
+    padding-top: 0.5rem;
+}
+
+.botones {
+    display: flex;
+
+}
+
+.boton-encriptar {
+    width: 10%;
+    height: 2rem;
+    margin-left: 8rem;
+    margin-right: 34rem;
+    border-radius: 10%;
+    border-color: #0cdee6;
+    background: black;
+    color: antiquewhite;
+}
+
+.boton-desencriptar {
+    width: 10%;
+    height: 2rem;
+    margin-right: 8rem;
+    border-color: #0cdee6;
+    background: black;
+    color: antiquewhite;
+    border-radius: 10%;
+}
+
+.boton-copiar {
+    width: 10%;
+    height: 2rem;
+    border-color: #0cdee6;
+    background: black;
+    color: antiquewhite;
+    border-radius: 10%;
+}
+
+.footer {
+    background: black;
+    width: 100%;
+    height: 150px;
+}
